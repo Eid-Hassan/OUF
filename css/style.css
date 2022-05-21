@@ -170,6 +170,11 @@ ul {
     z-index: 95;
 }
 
+.up .btn-outline-primary {
+    border: none;
+    cursor: pointer;
+}
+
 .up .btn-outline-primary:focus {
     box-shadow: none !important;
 }
@@ -177,6 +182,7 @@ ul {
 .up button i {
     animation: up 1s infinite linear;
 }
+
 /****************** Start NavBar **********/
 nav {
     position: fixed;
@@ -443,6 +449,7 @@ nav .box-link ul li a:hover {
         padding-right: 0 !important;
     }
 }
+
 /****************** Start Home **********/
 .home .box ul li span {
     color: #3c67e3;
@@ -591,6 +598,7 @@ nav .box-link ul li a:hover {
         padding: 10px 20px !important;
     }
 }
+
 /****************** Start Portfolio *************/
 .portfolio .container .links li {
     padding: 8px 15px;

@@ -450,6 +450,13 @@ nav .box-link ul li a:hover {
     }
 }
 
+/****************** Start Slide **********/
+.carousel-inner {
+    height:300;
+}
+.carousel-inner .carousel-item img{
+    height: 700px;
+}
 /****************** Start Home **********/
 .home .box ul li span {
     color: #3c67e3;
